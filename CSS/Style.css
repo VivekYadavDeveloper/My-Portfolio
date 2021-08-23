@@ -1,0 +1,102 @@
+/********************CSS TAGS********************/
+body {
+  background-color: #dfebff;
+  color: #40514e;
+  margin: 0px;
+  font-family: monospace;
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-family: "Rampart One", cursive;
+  
+  margin-right: 20px 0px 20px;
+  font-size: 70px;
+}
+span{
+  color: #f9004d;
+}
+h2 {
+  color: #7c83fd;
+  font-size: 5rem; /* font-size 1em = 16px on default browser settings */
+  font-family: "Rampart One", cursive;
+  text-align: center;
+  margin-left: 8px;
+}
+
+h3 {
+  color: #00af91;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+/********************CLASS TAGS********************/
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/images/VV.png);
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span {
+  color: #f9004d;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 10px 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #f9004d;
+  transition: 0.4s;
+}
+.btn {
+  background: #f9004d;
+  color: whitesmoke;
+border-radius: 30px;
+  box-shadow: 1px 1px 10px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: 2px solid transparent;
+  padding: 5px 20px;
+  transition: transform.4s;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  transform: scale(1.1);/* Transform Used For Transition */
+
+}
+a {
+  color: #00af91;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+.copyright {
+  color: #6c6d6e;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
