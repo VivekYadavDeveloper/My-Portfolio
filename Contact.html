@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/Style.css">
+
+
+    <!--*** ================================================= -->
+    <!--****From Here We Are Going To Use "Js" For Adding Javascript We Use "<Script> Tag" -->=
+    <!--*** ================================================= -->
+
+    <script defer src="index.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--*** ================================================= -->
+    <!-- **** ICON SECTION -->
+    <!--*** ================================================= -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <title>Contact Page</title>
+</head>
+
+<body>
+
+
+    <!--*** ================================================= -->
+    <!--**** "OUR HEADER SECTION FROM HERE" -->
+    <!--*** ================================================= -->
+
+
+    <header class="Header">
+        <img src="images/logo.jpg" alt="My Name Logo" class="Logo" />
+        <nav class="NavBar">
+            <ul class="navbar-lists">
+                <li><a href="/index.html" class="navbar-link home-link">Home</a></li>
+                <li><a href="/About.html" class="navbar-link about-link">About</a></li>
+                <li><a href="/Portfolio.html" class="navbar-link portfolio-link">Portfolio</a></li>
+                <li><a href="/Services.html" class="navbar-link service-link">Services</a></li>
+                <li><a href="/Contact.html" class="navbar-link contact-link">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- ? Responsive NavBar -->
+        <div class="mobile-navbar-btn">
+
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+
+
+
+    <!--*** ================================================= -->
+    <!--**** "OUR CONTACT SECTION START FROM HERE" ****-->
+    <!--*** ================================================= -->
+
+
+
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading"> Contact Us</h2>
+        </div>
+
+
+        <!--*** ================================================= -->
+        <!-- ****  GOOGLE MAP EMBED HERE **** -->
+        <!--*** ================================================= -->
+
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d860.7958576197232!2d77.90101652936097!3d30.345736399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f2b2455cade69%3A0x648749299019c0eb!2sanup%20general%20store!5e0!3m2!1sen!2sin!4v1656855199557!5m2!1sen!2sin"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+        <div class="section-contact-main contact-container">
+            <form action="https://formspree.io/f/xknyvwjo" method="POST">
+
+                <div class="grid grid-two-column">
+                    <div>
+                        <label for="Username"></label>
+                        <input type="text" name="Username" placeholder="Username" id="Username" required
+                            autocomplete="off" />
+                    </div>
+                    <div>
+                        <label for="Email"></label>
+                        <input type="email" name="Email" placeholder="Email@gmail.com" autocomplete="off" id="Email"
+                            required />
+                    </div>
+                </div>
+
+                <div>
+                    <label for="Subject"></label>
+                    <input type="text" name="Subject" placeholder="Subject" id="Subject" required autocomplete="off" />
+                </div>
+                <div>
+                    <label for="textarea"></label>
+                    <textarea name="Textarea" id="Textarea" cols="30" rows="10" placeholder="Message....." required
+                        autocomplete="off"></textarea>
+                </div>
+                <div>
+                    <input type="Submit" id="Submit" name="Submit" class="btn">
+
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--*** ================================================= -->
+    <!--**** "OUR FOOTER SECTION START FROM HERE" ****-->
+    <!--*** ================================================= -->
+
+
+    <footer class="section-footer section">
+        <div class="container grid grid-four-column">
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </span>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </span>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </span>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </span>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </span>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--*** ================================================= -->
+            <!--**** END ****-->
+            <!--*** ================================================= -->
+
+            <div class="f-services">
+                <h3>Services</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </span>
+                        <a href="#">Flutter Project</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </span>
+                        <a href="#">Web Development</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </span>
+                        <a href="#">Web Design </a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </span>
+                        <a href="#">App Design</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!--*** ================================================= -->
+            <!--**** END ****-->
+            <!--*** ================================================= -->
+
+
+            <div class="f-address">
+                <h3> Have a Question?</h3>
+                <address>
+                    <div>
+                        <p><span>
+                                <ion-icon name="location-outline"></ion-icon>
+                            </span> DehraDun, India</p>
+                    </div>
+                    <div>
+                        <p><span>
+                                <ion-icon name="call-outline"></ion-icon>
+                            </span> <a href="tel:+917830056243">+91 7830056243</a>
+                        </p>
+                    </div>
+                    <div>
+                        <p><span>
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </span> <a href="mailto:vk662967@gamil.com">vk662967@gmail.com</a>
+                        </p>
+                    </div>
+                </address>
+            </div>
+        </div>
+        <div class="container">
+            <div class="f-social-icons">
+
+                <!--? INSTAGRAM -->
+                <a href="https://www.instagram.com/thevivekyadavofficial/" target="_blank">
+                    <ion-icon class="icons" name="logo-instagram"></ion-icon>
+                </a>
+
+                <!--? DISCORD  -->
+                <a href="https://discord.com/channels/@me" target="_blank">
+                    <ion-icon class="icons" name="logo-discord"></ion-icon>
+                </a>
+                <!--? YOUTUBE -->
+                <a href="https://www.youtube.com/channel/UC1WATtMPkEghWyQAOz2S1oQ" target="_blank">
+                    <ion-icon class="icons" name="logo-youtube"></ion-icon>
+                </a>
+            </div>
+
+            <div class="f-credits">
+                <p> Copyright 2022 All Rights Reserved | This Template Is Made With 💗 By Thapa Technical</p>
+            </div>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
