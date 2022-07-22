@@ -269,7 +269,8 @@ li {
 }
 
 .hero-img {
-  max-width: 150%;
+  max-width: 100%;
+
 }
 
 
@@ -617,6 +618,7 @@ li {
 /**?? For Give The Position Of The Container And Bring It On Front*/
 .section-freelancing .container {
   position: relative;
+  max-width: 100%;
 }
 
 .section-freelancing h2 {
@@ -917,13 +919,42 @@ footer a:active {
 
 @media (max-width:49em) {
 
+  /*? Hero Section */
 
+  .container {
+    max-width: 71rem;
+  }
 
   .section-hero .grid-two-column {
     grid-template-columns: 1fr;
   }
+
+  .section-hero-data {
+    align-items: center;
+  }
+
+  .hero-heading {
+    text-align: center;
+  }
+
+  .hero-para {
+    text-align: center;
+    margin-top: .5rem;
+  }
+
+  /*? Bio Data */
+  .section-biodata .grid-two-column {
+    grid-template-columns: 1fr;
+  }
+
+  /*? Work Data */
+
+  .section-work-data .grid-four-column {
+    grid-template-columns: 1fr 1fr;
+  }
+
 }
 
-/** 7.06.40 
+/** 8.44.58 
 
 ** https://www.youtube.com/watch?v=NPkPtu61yV4 **/

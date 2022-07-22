@@ -23,6 +23,9 @@ p_btns.addEventListener("click", (e) => {
     const p_btn_clicked = e.target;
     console.log(p_btn_clicked);
 
+    // **? When The Class Available.
+
+    if (!p_btn_clicked.classList.contains("p-btn")) return;
 
     // **? Removing The Hover Effect For The Current Element.
 
@@ -111,3 +114,28 @@ counterNum.forEach((curElem) => {
     updateNumber();
 
 });
+
+
+
+
+//**  ======================================
+// **** @MediaQuery Through Javascript
+//**  ======================================
+
+// const myJsmedia = (widthSize) => {
+//     if (widthSize.matches) {
+
+//         // Returb The Element Here..
+//     } else {
+//         // Return Same....
+//     }
+
+
+// }
+
+
+// const widthSize = window.matchMedia("(max-width:780px)");
+// // Call Listner Function at Run Time.
+// myJsmedia(widthSize);
+// // Attach Listener Function On State Changes.
+// widthSize.addEventListener("change", myJsmedia)
